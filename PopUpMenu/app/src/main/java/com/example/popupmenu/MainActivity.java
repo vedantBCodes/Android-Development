@@ -16,12 +16,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btn=findViewById(R.id.btnPopup);
-        btn.setOnClickListener(new View.OnClickListener() {
+        Button btn=findViewById(R.id.btnPopup);  //Written code
+        btn.setOnClickListener(new View.OnClickListener() {  //Written code
             @Override
             public void onClick(View v) {
-                PopupMenu popupMenu=new PopupMenu(MainActivity.this,btn);
-                popupMenu.getMenuInflater().inflate(R.menu.popup_menu,popupMenu.getMenu());
+
+                PopupMenu popupMenu=new PopupMenu(MainActivity.this,btn);  //Written code
+                popupMenu.getMenuInflater().inflate(R.menu.popup_menu,popupMenu.getMenu());  //Written code
 
                 popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                     @Override

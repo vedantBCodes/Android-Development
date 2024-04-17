@@ -19,16 +19,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btnObj;
-        btnObj=findViewById(R.id.btn);
+        Button btnObj=findViewById(R.id.btn);
         registerForContextMenu(btnObj);
     }
 
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
-        super.onCreateContextMenu(menu, v, menuInfo);
 
         getMenuInflater().inflate(R.menu.context_menu,menu);
+
+        super.onCreateContextMenu(menu, v, menuInfo);
     }
 
     @Override
