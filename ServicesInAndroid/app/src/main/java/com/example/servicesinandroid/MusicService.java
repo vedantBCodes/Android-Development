@@ -10,7 +10,8 @@ import androidx.annotation.Nullable;
 
 import java.security.Provider;
 
-public class MusicService extends Service{
+public class MusicService  extends Service{
+
 
 
     @Nullable
@@ -40,31 +41,3 @@ public class MusicService extends Service{
 
 
 
-//        extends Service {
-//
-//        MediaPlayer mp;
-//
-//@Nullable
-//@Override
-//public IBinder onBind(Intent intent) {
-//        return null;
-//        }
-//
-//@Override
-//public int onStartCommand(Intent intent, int flags, int startId) {
-//
-//        mp=MediaPlayer.create(this, Settings.System.DEFAULT_NOTIFICATION_URI);
-//
-//
-//        mp.setLooping(true);
-//
-//        mp.start();
-//
-//        return START_STICKY;
-//        }
-//
-//@Override
-//public void onDestroy() {
-//        mp.stop();
-//        super.onDestroy();
-//        }

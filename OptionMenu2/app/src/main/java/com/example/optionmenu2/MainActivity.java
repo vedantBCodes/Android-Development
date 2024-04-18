@@ -18,14 +18,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar=findViewById(R.id.toolBar);  //written code
+            Toolbar toolbar = findViewById(R.id.toolBar);  //written code
         setSupportActionBar(toolbar);    //written code
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater=new MenuInflater((this));  //written code
-        inflater.inflate(R.menu.option_menu,menu);  //written code
+        MenuInflater inflater = new MenuInflater((this));  //written code
+        inflater.inflate(R.menu.option_menu, menu);  //written code
 
         return super.onCreateOptionsMenu(menu);
     }
@@ -33,24 +33,26 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        int itemId=item.getItemId(); //written code
+        int itemId = item.getItemId(); //written code
 
-        if(itemId==R.id.profile) {
+
+        if (itemId == R.id.profile) {
 
             Toast.makeText(this, "profile clicked", Toast.LENGTH_SHORT).show();
         }
-        if(itemId==R.id.setting) {
+        if (itemId == R.id.setting) {
 
             Toast.makeText(this, "setting option clicked", Toast.LENGTH_SHORT).show();
         }
-        if(itemId==R.id.more) {
+        if (itemId == R.id.more) {
 
             Toast.makeText(this, "more option clicked", Toast.LENGTH_SHORT).show();
         }
-        if(itemId==R.id.exit) {
+        if (itemId == R.id.exit) {
 
             Toast.makeText(this, "exit option clicked", Toast.LENGTH_SHORT).show();
         }
 
         return super.onOptionsItemSelected(item);
     }
+}
