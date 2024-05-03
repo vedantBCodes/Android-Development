@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-            Toolbar toolbar = findViewById(R.id.toolBar);  //written code
+        Toolbar toolbar = findViewById(R.id.toolBar);  //written code
         setSupportActionBar(toolbar);    //written code
     }
 
@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = new MenuInflater((this));  //written code
         inflater.inflate(R.menu.option_menu, menu);  //written code
-
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -34,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int itemId = item.getItemId(); //written code
-
 
         if (itemId == R.id.profile) {
 
@@ -52,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
 
             Toast.makeText(this, "exit option clicked", Toast.LENGTH_SHORT).show();
         }
-
         return super.onOptionsItemSelected(item);
     }
 }
