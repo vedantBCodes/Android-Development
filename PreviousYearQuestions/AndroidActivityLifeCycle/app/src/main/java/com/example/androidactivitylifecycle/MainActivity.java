@@ -18,17 +18,6 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this, "onCreate", Toast.LENGTH_SHORT).show();
 
-//        TextView textView=findViewById(R.id.textView);
-
-
-//        textView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this,SecondActivity.class);
-//
-//                startActivity(intent);
-//            }
-//        });
     }
 
     @Override
