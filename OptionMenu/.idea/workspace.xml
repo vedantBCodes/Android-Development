@@ -21,7 +21,19 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5146918-76ab-4b53-8fb4-fb9c41136783" name="Changes" comment="" />
+    <list default="true" id="a5146918-76ab-4b53-8fb4-fb9c41136783" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../IntentPassing/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntentPassing/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntentPassing/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntentPassing/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearLayout/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinearLayout/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearLayout/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinearLayout/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OptionMenu2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OptionMenu2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicesInAndroid/app/src/main/java/com/example/servicesinandroid/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicesInAndroid/app/src/main/java/com/example/servicesinandroid/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicesInAndroid/app/src/main/java/com/example/servicesinandroid/MusicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicesInAndroid/app/src/main/java/com/example/servicesinandroid/MusicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpinnerInAndroid/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpinnerInAndroid/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpinnerInAndroid/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpinnerInAndroid/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewsInAndroid/app/src/main/res/drawable/digitalImage.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../ViewsInAndroid/app/src/main/res/drawable/digitalimage.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewsInAndroid/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ViewsInAndroid/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

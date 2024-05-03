@@ -13,8 +13,7 @@ import java.security.Provider;
 public class MusicService  extends Service{
 
 
-
-    @Nullable
+        @Nullable
     @Override
     public IBinder onBind(Intent intent) {
         return null;

@@ -24,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startService(new Intent(MainActivity.this,MusicService.class));
+
+//                Intent object can also be created and passed in the startService()
+//                Intent obj=new Intent(MainActivity.this, MusicService.class);
+//                startService(obj);
             }
         });
 
@@ -31,9 +35,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 stopService(new Intent(MainActivity.this,MusicService.class));
+
+
+//                  Intent object can also be created and passed in the stopService()
+//                  Intent obj=new Intent(MainActivity.this, MusicService.class);
+//                  stopService(obj);
             }
         });
-
-
     }
 }

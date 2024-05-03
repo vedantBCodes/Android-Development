@@ -7,40 +7,38 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-<!--    Adding normal images (.jpg , .png or .jpeg files)-->
+    <!--    Adding normal images (.jpg , .png or .jpeg files)-->
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:src="@drawable/digitalImage"
         android:contentDescription="Digital marketing image"
-      />
+        android:src="@drawable/digitalImage" />
 
-<!--    Adding vector files (.svg files) -->
+    <!--    Adding vector files (.svg files) -->
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:src="@drawable/svgimage"
         android:contentDescription="Svg file image"
-        />
+        android:src="@drawable/svgimage" />
 
-<!--    Adding text directly-->
+    <!--    Adding text directly -->
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hii I am vedant and i am a computer science student. I have done my 10th from SMH udgir and 12th from NBT jamkhed"
-        android:textSize="20sp"
-        android:textStyle="bold"
         android:padding="10dp"
-        android:textColor="#E2C7C2"/>
+        android:text="Hii I am vedant and i am a computer science student. I have done my 10th from SMH udgir and 12th from NBT jamkhed"
+        android:textColor="#E2C7C2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
-<!--    Adding text by defining a string (in string.xml) -->
+    <!--    Adding text by defining a string (in string.xml) -->
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="87dp"
+        android:layout_height="492dp"
         android:padding="10dp"
         android:text="@string/about_me"
         android:textSize="20sp"
@@ -49,19 +47,18 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:ems="12"
-        android:inputType="text"
-        android:hint="Enter your name : "
-        android:textColor="@color/black"
         android:gravity="center_horizontal"
-        android:layout_marginTop="20dp"/>
+        android:hint="Enter your name : "
+        android:inputType="text"
+        android:textColor="@color/black" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Contact Us"
-        android:textColor="@color/black"
         android:backgroundTint="#E2C7C2"
-        />
+        android:text="Contact Us"
+        android:textColor="@color/black" />
 
 </LinearLayout>
